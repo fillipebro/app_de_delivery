@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(135deg, #0ffeb2 0%, #fefefe 100%);
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  background-color: #ffffff; 
+}
+
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+
+.card-eco {
+  border-left: 5px solid rgb(0, 255, 30);
+  background-color: #d9fbe2; 
+}
+
+
+
+h1 {
+  color: #007f8b;
+  font-weight: 700;
+}
+
+
+.badge.bg-success {
+  background-color: #00ff44 !important;
+}
+
+.navbar {
+  background-color: #29ffbb !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
